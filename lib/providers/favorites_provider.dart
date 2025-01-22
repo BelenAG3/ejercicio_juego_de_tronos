@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ejercicio_fluter_of/models/character.dart';
+import 'package:ejercicio_juego_de_tronos/models/character.dart';
 class FavoritesProvider with ChangeNotifier {
   final List<Character> _favorites = [];
   List<Character> get favorites => _favorites;

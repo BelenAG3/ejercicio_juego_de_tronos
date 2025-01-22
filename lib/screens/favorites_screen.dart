@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ejercicio_fluter_of/providers/favorites_provider.dart';
-import 'package:ejercicio_fluter_of/screens/detail_sreen.dart';
+import 'package:ejercicio_juego_de_tronos/providers/favorites_provider.dart';
+import 'package:ejercicio_juego_de_tronos/screens/detail_screen.dart';
 class FavoritesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

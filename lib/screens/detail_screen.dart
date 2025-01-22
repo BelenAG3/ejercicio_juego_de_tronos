@@ -1,8 +1,8 @@
-import 'package:ejercicio_fluter_of/providers/favorites_provider.dart';
+import 'package:ejercicio_juego_de_tronos/providers/favorites_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ejercicio_fluter_of/models/character.dart';
-import 'package:ejercicio_fluter_of/services/api_service.dart';
+import 'package:ejercicio_juego_de_tronos/models/character.dart';
+import 'package:ejercicio_juego_de_tronos/services/api_service.dart';
 class DetailScreen extends StatelessWidget {
   final Character character;
   const DetailScreen({Key? key, required this.character}) : super(key: key);
